@@ -71,14 +71,10 @@ h3 {
 p {
 	font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #000000;
     line-height: 1.5
 }
 
-.bono h3,
-.bono p,
-.adam h3,
-.adam p { color: #fff }
+.bono h3,.bono p,.adam h3,.adam p { color: #fff }
 
 .edge h3,
 .edge p,
