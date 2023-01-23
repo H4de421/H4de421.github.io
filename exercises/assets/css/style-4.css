@@ -10,7 +10,7 @@ h1, h2, h3, h4 { width: 100% }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
-
+    
 /* ==== Web page width ==== */
 
 /* Desktops */
@@ -23,16 +23,35 @@ input, button, textarea, select { font: inherit }
 
 /* ==== Headings ==== */
 
-div {
-    background-color: deeppink;
+.bono {
+    background-color: #4081ec;
     padding: 12px;
-    border-style: solid;
-    border-color: green;
-    border-width: 14px;
-    margin: 32px 0 32px 0;
-    margin-left: 0
-    ;    
+    margin-bottom: 40px;
+    width: 220px
 }
+
+.edge {
+    background-color: #ffbb33;
+    padding: 12px;
+    margin-bottom: 40px;
+    width: 220px
+}
+
+.adam {
+    background-color: #f73345;
+    padding: 12px;
+    margin-bottom: 40px;
+    width: 220px
+}
+
+.larry {
+    background-color: #e0e0e0;
+    padding: 12px;
+    margin-bottom: 40px;
+    width: 220px
+}
+
+
 
 h1 {
 	font-family: 'Roboto', sans-serif;
@@ -51,8 +70,17 @@ h3 {
 /* Paragraphs of text */
 p {
 	font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #696969;
-    line-height: 1.7
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5
 }
 
+.bono h3,
+.bono p,
+.adam h3,
+.adam p { color: #fff }
+
+.edge h3,
+.edge p,
+.larry h3,
+.larry p { color: #000 }
