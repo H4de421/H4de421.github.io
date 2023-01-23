@@ -250,7 +250,13 @@ input, button, textarea, select { font: inherit }
 
 
 /* Desktops */
-@media (min-width: 768px) {section { padding: 4% 20% } }
+@media (min-width: 768px) {
+    section { padding: 4% 20% }
+    section.w-800px > * {max-width: 800px; margin-left: auto; margin-right: auto;}
+    section.w-1024px > * {max-width: 1024px; margin-left: auto; margin-right: auto;}
+    section.w-1140px > * {max-width: 1140px; margin-left: auto; margin-right: auto;}
+    section.w-1536px > * {max-width: 1536px; margin-left: auto; margin-right: auto;}
+}
 	
 /* Mobiles */
 @media (max-width: 767px) {section { padding: 12% 8% } }
@@ -314,4 +320,14 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+/* UTILITY CLASS */
+@media (min-width: 1025px)
+{
+    .text-center-desktop {text-align: center;}
+}
+
+@media (min-width: 767px)
+{
+    .text-center-desktop {text-align: center;}
 }
