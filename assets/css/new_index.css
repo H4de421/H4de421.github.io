@@ -1,0 +1,41 @@
+.Hero-bg {
+    margin-bottom: -500px;
+    height: 100%;
+}
+
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--blue-500) }
+
+header.theme-dark .badge { color: var(--sky-600) }
+header.theme-dark .badge { background-color: var(--black-000) }
+header.theme-dark h1 { color: var(--black-000) }
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--black-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--black-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):link,
+header.theme-dark .container-btn a.btn:nth-child(2):visited { color: var(--white-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):link,
+header.theme-dark .container-btn a.btn:nth-child(2):visited { background-color: var(--black-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):link,
+header.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(--black-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: var(--trans-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { color: var(--black-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--black-000) }
+
+header.theme-dark h1.heading-underline::after { background-color: var(--black-000) }
+header.theme-dark h2 { color: var(--black-000) }

@@ -1,0 +1,29 @@
+
+.section-selector-1 {background-color: black;    }
+.section-selector-1 h2,.section-selector-1 p {color: var(--white-000);}
+.section-selector-1 h2 span 
+{
+    color: var(--yellow-600);
+    letter-spacing: -3px;
+}
+.section-selector-1 p {font-size: var(--font-size-md)}
+.section-selector-1 h4 span
+{
+    color: var(--black-600);
+    background-color: var(--white-000);
+} 
+.section-selector-2 {background-image: linear-gradient(45deg, #fff, #88f);}
+.section-selector-2 span {color: red;}
+.section-selector-2 p {font-size: var(--font-size-md) ;}
+
+.section-selector-3 {background-color: var(--yellow-400);}
+.section-selector-3 h2 {
+    font-size: var(--font-size-xxl);
+    font-weight: 300;
+    font-family: 'Inter',sans-serif;
+}
+
+.section-selector-3 h2 span {
+    font-style: 500;
+    font-family: 'Inter',sans-serif;
+}
