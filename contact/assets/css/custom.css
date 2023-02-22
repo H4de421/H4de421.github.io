@@ -1,0 +1,75 @@
+/* Add your custom CSS here */
+
+body {font-family: 'Roboto Mono', monospace;}
+
+header {background-color: black;}
+
+header h2 { background: -webkit-linear-gradient(#a04480, #6b21a8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;}
+
+header h2 span{ color: var(--purple-700) }
+section .container-btn a.btn:nth-child(1):link,
+section .container-btn a.btn:nth-child(1):visited { color: var(--white-000);border-color: var(--white-000) }
+
+section .container-btn a.btn:nth-child(1):link,
+section .container-btn a.btn:nth-child(1):visited { border-color: var(--white-000) }
+
+section .container-btn a.btn:nth-child(1):focus,
+section .container-btn a.btn:nth-child(1):hover,
+section .container-btn a.btn:nth-child(1):active { color: var(--purple-800) ;border-color: var(--purple-800) ; background-color: var(--black-000) }
+
+section {background-color: black;}
+
+.container-media {
+    z-index: 0;
+    opacity: 1;
+}
+
+.col-text {
+    z-index: 1;
+    flex-basis: 40%;
+    background-color: black;
+}
+
+.container-text {
+    z-index: 1;
+}
+
+
+.col-wave{
+    z-index: 1;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+}
+
+.col-visual {
+    z-index: 1;
+    flex-basis: 40%;
+}
+
+.above {
+    z-index: 1;
+    flex-basis: 100%;
+    margin-bottom: -1px;
+}
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--white-000);border-color: var(--white-000) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--purple-700) ; border-color: var(--purple-700) }
+
+section h2 { 
+            text-decoration: underline;
+            text-underline-offset: 15px;
+            text-decoration-thickness: 3px;
+            text-decoration-color: var(--purple-700);
+            text-decoration-style: wavy;
+
+             }
+.section-selector-1 h3 {color : var(--purple-700)}
+

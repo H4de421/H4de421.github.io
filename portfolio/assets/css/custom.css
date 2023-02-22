@@ -25,12 +25,17 @@ header .container-btn a.btn:nth-child(1):active { color: var(--purple-800) ;bord
 
 .container-media {
     z-index: 0;
-    opacity: 1;
+}
+
+
+.col-visual .col-2 {
+    z-index: 1;
+    flex-basis: 40% !important;
 }
 
 .col-text {
     z-index: 1;
-    flex-basis: 40%;
+    flex-basis: 40% !important;
     background-color: black;
 }
 
@@ -43,10 +48,6 @@ header .container-btn a.btn:nth-child(1):active { color: var(--purple-800) ;bord
     z-index: 1;
 }
 
-.col-visual {
-    z-index: 1;
-    flex-basis: 40%;
-}
 
 .above {
     z-index: 1;
