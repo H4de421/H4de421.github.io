@@ -24,14 +24,15 @@ header h1 { background: -webkit-linear-gradient(#a04480, #6b21a8);
 
 header h2 span{ color: var(--purple-700) }
 header .container-btn a.btn:nth-child(1):link,
-header .container-btn a.btn:nth-child(1):visited { color: var(--white-000);border-color: var(--white-000) }
+header .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
 
 header .container-btn a.btn:nth-child(1):link,
 header .container-btn a.btn:nth-child(1):visited { border-color: var(--white-000) }
 
 header .container-btn a.btn:nth-child(1):focus,
 header .container-btn a.btn:nth-child(1):hover,
-header .container-btn a.btn:nth-child(1):active { color: var(--purple-800) ;border-color: var(--purple-800) ; background-color: var(--black-000) }
+header .container-btn a.btn:nth-child(1):active { color: var(--purple-800) ;border-color: var(--purple-800) ; background-color: transparent; }
+
 
 .container-media {
     z-index: 0;
@@ -69,11 +70,11 @@ header .container-btn a.btn:nth-child(1):active { color: var(--purple-800) ;bord
 }
 
 .section-selector-1 a.btn:link,
-.section-selector-1 a.btn:visited { color: var(--white-000);border-color: var(--white-000) }
+.section-selector-1 a.btn:visited { color: var(--white-000);border-color: var(--white-000); background-color: black; }
 
 .section-selector-1 a.btn:focus,
 .section-selector-1 a.btn:hover,
-.section-selector-1 a.btn:active { color: var(--purple-700) ; border-color: var(--purple-700) }
+.section-selector-1 a.btn:active { color: var(--purple-700) ; border-color: var(--purple-700); background-color: black;}
 
 section h2 { 
             text-decoration: underline;
@@ -84,6 +85,12 @@ section h2 {
 
              }
 .section-selector-1 h3 {color : var(--purple-700)}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color:  var(--purple-700);
+}
 
 
 

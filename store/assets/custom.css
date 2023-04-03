@@ -1,0 +1,5 @@
+.section-selector-1 .col-1-badge { color: var(--black-000) }
+.section-selector-1 .col-1-badge { background-color: var(--purple-700) }
+.section-selector-1 .col-1 h2 { color: var(--purple-700) }
+.section-selector-1 .col-3 { overflow: visible }
+.section-selector-1 .col-3 { overflow: hidden }
