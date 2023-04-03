@@ -73,3 +73,9 @@ section h2 {
              }
 .section-selector-1 h3 {color : var(--purple-700)}
 
+footer { 
+    background-color: darkmagenta !important;
+    color: black !important;
+}
+
+
