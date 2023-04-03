@@ -57,11 +57,11 @@ section {background-color: black;}
 }
 
 .section-selector-1 a.btn:link,
-.section-selector-1 a.btn:visited { color: var(--white-000);border-color: var(--white-000) }
+.section-selector-1 a.btn:visited { color: var(--white-000);border-color: var(--white-000); background-color: black; }
 
 .section-selector-1 a.btn:focus,
 .section-selector-1 a.btn:hover,
-.section-selector-1 a.btn:active { color: var(--purple-700) ; border-color: var(--purple-700) }
+.section-selector-1 a.btn:active { color: var(--purple-700) ; border-color: var(--purple-700); background-color: black; }
 
 section h2 { 
             text-decoration: underline;
