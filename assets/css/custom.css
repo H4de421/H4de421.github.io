@@ -5,6 +5,15 @@ body {font-family: 'Roboto Mono', monospace;}
 header { color: var(--white-000);
 }
 
+.icons {
+  height: 20%;
+  width: 10%;
+  margin-top: 5%;
+  margin-left: 45%;
+  margin-right: 45% ;
+}
+
+
 header h1 { background: -webkit-linear-gradient(#a04480, #6b21a8);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
