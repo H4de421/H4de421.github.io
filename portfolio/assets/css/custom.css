@@ -9,11 +9,15 @@ header { color: var(--white-000);
 header h1 { background: -webkit-linear-gradient(#a04480, #6b21a8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
-    footer {
+footer {
         background-color: black;
         text-align: center;
         color:  var(--purple-700);
       }
+.brand {
+    height: 3%;
+    width: 3%;
+}
 
 
 header h2 span{ color: var(--purple-700) }
